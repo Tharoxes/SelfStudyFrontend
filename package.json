@@ -1,0 +1,19 @@
+{
+  "name": "frontend-tech-stack",
+  "version": "1.0.0",
+  "description": "This my first project as self-study process.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tharoxes/SelfStudyFrontend.git"
+  },
+  "author": "Thanh Cong Huynh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tharoxes/SelfStudyFrontend/issues"
+  },
+  "homepage": "https://github.com/Tharoxes/SelfStudyFrontend#readme"
+}
