@@ -7,3 +7,8 @@ This repository contains only a frontend setup and focuses on HTML3, CSS5, JavaS
 ### Figma - visual prototypes
 
 We createww the web design by figma and develope it in html, css and javascript
+
+
+## Bootstrap
+
+Documentation from bootstrap supports container layout and grid order for the different elements.
