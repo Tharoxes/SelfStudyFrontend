@@ -4,7 +4,8 @@
   "description": "This my first project as self-study process.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel-help": "babel --help"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/Tharoxes/SelfStudyFrontend/issues"
   },
-  "homepage": "https://github.com/Tharoxes/SelfStudyFrontend#readme"
+  "homepage": "https://github.com/Tharoxes/SelfStudyFrontend#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0"
+  }
 }
