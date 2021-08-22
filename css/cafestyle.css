@@ -1,7 +1,21 @@
 body {
     background-attachment: fixed;
-    background-image: url("../pics/pexels-fwstudio-172289resizeimage.jpg");
+    background: url("../pics/pexels-fwstudio-172289resizeimage.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     overflow-y: hidden;
+}
+
+.nav-dropdown{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+#dropdownMenuButton2{
+    width: 180px;
 }
 
 p {
@@ -31,10 +45,12 @@ h1 {
 
 #front-bar {
     opacity: 75%;
+    height: 60%;
 }
 
 .centered {
     position: fixed;
+    height: 100%;
     top: 50%;
     left: 50%;
     /* bring your own prefixes */
@@ -42,15 +58,10 @@ h1 {
     z-index: -1;
 }
 
-
 .switch{
     position: fixed;
-    left: 50px;
-    top: 95px;
+    left: 5%;
+    top: 5%;
     padding-left: 20px;
     padding-right: 20px;
 }
-
-.btn {
-    padding: .55rem 1.5rem .45rem;
-  }
