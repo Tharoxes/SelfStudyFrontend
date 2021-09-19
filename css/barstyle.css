@@ -249,6 +249,11 @@ p {
     margin-left: 10px;
 }
 
+h1 .headline{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .profile .profile_details .name{
     font-size: 15px;
     font-weight: 400;
@@ -284,6 +289,11 @@ p {
     width: calc(100%-78px);
     left: 78px;
     transition: all 0.5s ease;
+    overflow-y: scroll;
+}
+
+.home_content::-webkit-scrollbar{
+    display: none;
 }
 
 .home_content .text{
@@ -296,4 +306,8 @@ p {
 .sidebar.open ~ .home_content{
     width: calc(100%-240px);
     left: 240px;
+}
+
+.content-container {
+    margin: 0px 100px;
 }
